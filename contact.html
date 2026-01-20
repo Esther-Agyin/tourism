@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Sphere | Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <h1>Travel Sphere </h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="destinations.html">Destinations</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+    </nav>
+</header>
+
+<section class="page-hero">
+    <h2 style="padding-left: 20px;">Contact Us</h2>
+    <p style="padding-left: 20px;">We’d love to hear from you</p>
+</section>
+
+<section class="contact">
+    <div class="contact-container">
+
+        <div class="contact-info">
+            <h3>Get in Touch</h3>
+            <p>Email: info@travelspehere.com</p>
+            <p>Phone: +233 23000000</p>
+            <p>Location: Accra, Ghana</p>
+        </div>
+
+        <form id="contactForm" class="contact-form">
+            <div class="form-group">
+                <label>Full Name</label>
+                <input type="text" id="name">
+                <small class="error"></small>
+            </div>
+
+            <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" id="email">
+                <small class="error"></small>
+            </div>
+
+            <div class="form-group">
+                <label>Message</label>
+                <textarea id="message" rows="5"></textarea>
+                <small class="error"></small>
+            </div>
+
+            <button type="submit">Send Message</button>
+            <p id="successMessage"></p>
+        </form>
+
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Travel Sphere</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

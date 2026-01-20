@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Sphere | Experiences</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <h1>Travel Sphere</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="experiences.html" class="active">Destinations</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="page-hero">
+    <h2>Destinations</h2>
+    <p>Discover unforgettable travel experiences</p>
+</section>
+
+<section class="filters">
+    <button data-filter="all">All</button>
+    <button data-filter="adventure">Adventure</button>
+    <button data-filter="culture">Culture</button>
+    <button data-filter="nature">Nature</button>
+</section>
+
+<section class="experiences">
+    <div class="experience-grid" id="experienceContainer"></div>
+</section>
+
+<!-- MODAL -->
+<div class="modal" id="experienceModal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3 id="modalTitle"></h3>
+        <p id="modalDescription"></p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 Travel Sphere</p>
+</footer>
+
+<script src="js/script1.js"></script>
+</body>
+</html>
